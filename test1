@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "❄ [SyScam X Hub] ❄",
+    Name = " [SyScam X Hub] ",
     LoadingTitle = "Loading [SyScam X]",
     LoadingSubtitle = "Made by: [w3irdo]",
     ConfigurationSaving = {
@@ -26,34 +26,34 @@ local Window = Rayfield:CreateWindow({
     }
  })
 
- local Tab = Window:CreateTab("❄ Games ❄", 15672947501) -- Tabby tab
+ local Tab = Window:CreateTab("Games", 15672947501) -- Tabby tab
  local arsenal = Tab:CreateButton({
-    Name = "[❄] Arsenal",
+    Name = "Arsenal",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/BombLoL/SyScamX-Hub/main/HamewareScript'))()
     end,
  })
  local ps99 = Tab:CreateButton({
-    Name = "[❄] Pet Simulator 99",
+    Name = "Pet Simulator 99",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
     end,
  })
  local mm2 = Tab:CreateButton({
-    Name = "[❄] Murder Mystery 2 and Fling/Yeet Gui (FE)",
+    Name = "Murder Mystery 2 and Fling/Yeet Gui (FE)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/BombLoL/SyScamX-Hub/main/Fling%20Gui"))()
     end,
  })
  local bladeballs = Tab:CreateButton({
-    Name = "[❄] Blade Ball",
+    Name = "Blade Ball",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/SourceLua/main/Blade_Ball.lua"))()
     end,
  })
  local bloxfruit = Tab:CreateButton({
-    Name = "[❄] Blox Fruit",
+    Name = "Blox Fruit",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
     end,
