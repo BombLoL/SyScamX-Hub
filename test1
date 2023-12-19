@@ -27,34 +27,46 @@ local Window = Rayfield:CreateWindow({
  })
 
  local Tab = Window:CreateTab("Games", 15672947501) -- Tabby tab
- local arsenal = Tab:CreateButton({
+ local Paragraph = Tab:CreateParagraph({Title = "Welcome to SyScams X!", Content = "This is a joke! Do not take this seriously."})
+ local Section = Tab:CreateSection("Scripts")
+ local arsenal = Section:CreateButton({
     Name = "Arsenal",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/BombLoL/SyScamX-Hub/main/HamewareScript'))()
+      script.Parent.MouseButton1Click:Connect(function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/BombLoL/SyScamX-Hub/main/HamewareScript'))()
+      end)
     end,
  })
- local ps99 = Tab:CreateButton({
+ local ps99 = Section:CreateButton({
     Name = "Pet Simulator 99",
     Callback = function()
+      script.Parent.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+      end)
     end,
  })
- local mm2 = Tab:CreateButton({
+ local mm2 = Section:CreateButton({
     Name = "Murder Mystery 2 and Fling/Yeet Gui (FE)",
     Callback = function()
+      script.Parent.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/BombLoL/SyScamX-Hub/main/Fling%20Gui"))()
+      end)
     end,
  })
- local bladeballs = Tab:CreateButton({
+ local bladeballs = Section:CreateButton({
     Name = "Blade Ball",
     Callback = function()
+      script.Parent.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/SourceLua/main/Blade_Ball.lua"))()
+      end)
     end,
  })
- local bloxfruit = Tab:CreateButton({
+ local bloxfruit = Section:CreateButton({
     Name = "Blox Fruit",
     Callback = function()
+      script.Parent.MouseButton1Click:Connect(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+      end)
     end,
  })
